@@ -1,0 +1,15 @@
+
+                
+                h1{      
+                    background-color: lightblue;
+                }
+                p{
+                    font-family: cursive;
+                } 
+
+                body {
+                background-image: url("http://static4.businessinsider.com/image/5405ff096bb3f7c42144e2fb/tumblr_n9fr4rwyfb1r2geqjo1_500.gif");
+                background-color: black;
+                opacity: .99;
+                } /*What I wanted to do here was create a black box background that doesn't take up the *whole* body area, just to make the text more visable. Was going to make the text white*/                
+               
