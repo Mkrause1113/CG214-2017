@@ -1,0 +1,309 @@
+
+
+        .div1 {
+                padding left: 300px;
+                position: relative;
+                }
+
+        .head {
+                overflow: scroll;
+                overflow-x: scroll;
+                padding: 20px;
+              }
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 1\/*/
+
+        .slider-holder1
+                {
+                    width: 2650px;
+                    height: 700px;
+                    background-color: white;
+                    overflow: scroll;
+                    overflow-x: scroll;
+                }
+        
+        .image-holder
+                {
+                    width: 2650px;
+                    background-color: white;
+                    height: 700px;
+                    clear: both;
+                    position: relative;
+
+                }
+        
+        .slider-image
+                {
+                    float: left;
+                    position: relative;
+                    width: 100px;
+                }
+        
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 1\/*/
+            
+
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 2\/*/
+
+        .slider-holder2
+                {
+                    width: 2650px;
+                    height: 700px;
+                    position: relative;
+                    background-color: white;
+                    overflow: scroll;
+                    overflow-x: scroll;
+                }
+        
+        .image-holder
+                {
+                    width: 2650px;
+                    background-color: white;
+                    height: 700px;
+                    clear: both;
+                    position: relative;
+                }
+        
+        .slider2-image
+                {
+                    float: left;
+                    padding: 0px;
+                    position: relative;
+                }
+
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 2\/*/ 
+
+
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 3\/*/
+
+        .slider-holder3
+                {
+                    width: 2650px;
+                    height: 800px;
+                    background-color: white;
+                    overflow: scroll;
+                    overflow-x: scroll;
+
+                }
+        
+        .image-holder1
+                {
+                    width: 2650px;
+                    background-color: white;
+                    height: 800px;
+                    clear: both;
+                    position: relative;
+                }
+        
+        .slider-image
+                {
+                    float: left;
+                    margin: 0px;
+                    padding: 10px;
+                    position: relative;
+                    width: 400px;
+                }
+
+
+/*\/-- from qnimate.com --\/---- IMAGE GALLERY 3\/*/
+
+
+.container {
+    padding-left: 20px;
+    padding-right 20px;
+    padding-top: 5px;
+}
+
+.body {
+    font-family: Sans Pro; font-size: 13px;
+}
+
+
+
+/*\/Fancy Button css from Codepen.io \/*/
+
+.button1 {
+        position:relative;
+        background-color: D3D3D3; 
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;  
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button1:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+        position:relative;
+        background-color: D3D3D3; 
+        border: none;
+        color: D3D3D3;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; 
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button3 {
+        position:relative;
+        background-color: D3D3D3; 
+        border: none;
+        color: D3D3D3;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.widthSet {
+        max-width: 40px;
+}
+
+.section {
+        padding-top: 30px;
+}
+
+.preserve-3d {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow-x: scroll;
+    background-color: #ffffff;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 12px; 
+}
+
+.back {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background-color: #eeeeee;
+    border: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    counter-increment: bc;
+    padding: 0px 5px 5px 5px;
+}
+
+.back:before {
+    content: counter(bc) "_";
+    position: absolute;
+    padding: 10px;
+}
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    border: #ffffff 1px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor: default;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+
+.b05_3d_roll {
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+}
+
+.b05_3d_roll div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: #D3D3D3 solid 1px;
+    pointer-events: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.b05_3d_roll div:nth-child(1) {
+    color: #D3D3D3;
+    background-color: #D3D3D3;
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b05_3d_roll div:nth-child(2) {
+    color: #D3D3D3;
+    background-color: #ffffff;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b05_3d_roll:hover div:nth-child(1) {
+    color: #ffffff;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+}
+
+.b05_3d_roll:hover div:nth-child(2) {
+    background-color: #D3D3D3;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+}
+
+/* ^Fancy Button css from Codepen.io^ */
+
